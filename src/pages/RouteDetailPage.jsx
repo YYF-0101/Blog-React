@@ -1,12 +1,16 @@
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { useState, useEffect } from "react"
 import axios from 'axios';
 import { OrigUrl } from "../Resource";
 import DetailBlog from "../components/DetailBlog";
 
+const RouteDetailPage = () => {
 
-const BlogDetailPage = () => {
+  const location = useLocation()
+  console.log(location)
+
   const { id } = useParams()
+  console.log(id)
   console.log(`${OrigUrl}?id=${id}`)
 
   useEffect(() => {
@@ -33,4 +37,4 @@ const BlogDetailPage = () => {
   )
 }
 
-export default BlogDetailPage
+export default RouteDetailPage

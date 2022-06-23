@@ -1,0 +1,15 @@
+.title {
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  font-size: 90px;
+}
+
+.block {
+  height: 900px;
+}
+
+.button {
+  text-align: right;
+  margin: 30px 40px;
+}
