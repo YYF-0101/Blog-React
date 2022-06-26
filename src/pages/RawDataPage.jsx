@@ -14,7 +14,6 @@ const RawDataPage = () => {
     rawdata.forEach(data => {
       data.productMedia[0] && setMediaData(arr => [...arr, data])
     })
-    console.log('i fire once');
   }, [])
 
 
