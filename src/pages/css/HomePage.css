@@ -1,12 +1,19 @@
+.main {
+  height: 900px;
+}
+
+.main > div {
+  margin: 5% 10%;
+}
+
 h1 {
   margin: auto;
 }
 
-
  .formBlock > form {
   max-width: 625px;
   margin: 0 auto;
-
+  margin-top: 50px;
 }
 
 .login-label {
@@ -17,4 +24,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+}
+
+.submitBtn {
+  margin-top: 20px;
+}
+
+.loggedInBlock {
+  margin-top: 2% !important;
 }

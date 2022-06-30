@@ -9,7 +9,7 @@ const NotFound = () => {
         <span >PAGE NOT FOUND</span>
       </div>
       <div className='button'>
-        <Link to={"/"}>
+        <Link to="/">
           <button className='btn btn-outline-info'>Back to Main Page?</button>
         </Link>
       </div>
